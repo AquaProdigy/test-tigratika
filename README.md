@@ -1,5 +1,9 @@
+# скопировать файл .env.example to .env
 # docker compose up -d
-# php artisan migrate --force
-# php artisan db:seed
-# route - /list
+
+# В контейнере php прописать
+## php artisan key:generate
+## php artisan migrate --force
+## php artisan db:seed
+## route - /list
 
